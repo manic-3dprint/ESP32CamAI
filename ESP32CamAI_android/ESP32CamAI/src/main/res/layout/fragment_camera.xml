@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a6dfdfdf"
@@ -18,14 +19,16 @@
             android:layout_width="200px"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_btn_backward_off" />
+            android:src="@drawable/ic_btn_backward_off"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/forwardMoveBtn"
             android:layout_width="200px"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_btn_forward_off" />
+            android:src="@drawable/ic_btn_forward_off"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <com.p4f.esp32camai.VerticalButton
             android:id="@+id/objDetBtn"
@@ -85,14 +88,16 @@
             android:layout_width="200px"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_btn_right_off" />
+            android:src="@drawable/ic_btn_right_off"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/leftMoveBtn"
             android:layout_width="200px"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_btn_left_off" />
+            android:src="@drawable/ic_btn_left_off"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <com.p4f.esp32camai.VerticalButton
             android:id="@+id/streamBtn"

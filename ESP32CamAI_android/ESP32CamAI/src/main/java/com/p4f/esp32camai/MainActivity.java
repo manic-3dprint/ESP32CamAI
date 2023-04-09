@@ -8,7 +8,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentManager;
 
 
-public class MainActivity extends AppCompatActivity implements FragmentManager.OnBackStackChangedListener{
+public class MainActivity extends AppCompatActivity implements FragmentManager.OnBackStackChangedListener {
     private static final String TAG = "MainActivity";
     private String mSelectedCam = "";
     private String mSelectedCamPre = "";
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements FragmentManager.O
 
     @Override
     public void onBackStackChanged() {
-        getSupportActionBar().setDisplayHomeAsUpEnabled(getSupportFragmentManager().getBackStackEntryCount()>0);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(getSupportFragmentManager().getBackStackEntryCount() > 0);
     }
 
     @Override
